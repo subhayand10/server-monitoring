@@ -6,7 +6,7 @@ import pickle
 import subprocess
 import platform
 
-from gmail import email_alert
+from mail import email_alert
 
 class Server():
     def __init__(self, name, port, connection, priority):
