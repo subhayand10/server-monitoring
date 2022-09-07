@@ -1,9 +1,5 @@
-# Simple program to add a server after you have 
-# Created your pickle file
-# Could create a file to delete or modify servers as well
-
 import pickle
-from CheckServer import Server
+from main import Server
 
 servers = pickle.load( open( "servers.pickle", "rb" ) )
 
